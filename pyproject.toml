@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nexusfeed-mcp"
+version = "1.1.0"
+description = "MCP server for NexusFeed — real-time B2B data (LTL fuel surcharges, ABC license compliance) for AI agents"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "Commercial"}
+authors = [{name = "NexusFeed", email = "ops@nexusfeed.dev"}]
+keywords = ["freight", "ltl", "fuel-surcharge", "liquor-license", "abc", "compliance", "mcp", "ai-agents", "nexusfeed"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.8.0",
+    "httpx>=0.28.0",
+    "pydantic-settings>=2.7.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.9.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/nexusfeed/nexusfeed-mcp"
+Documentation = "https://api.nexusfeed.dev/docs"
+Source = "https://github.com/nexusfeed/nexusfeed-mcp"
+"Bug Tracker" = "https://github.com/nexusfeed/nexusfeed-mcp/issues"
+PyPI = "https://pypi.org/project/nexusfeed-mcp/"
+
+[project.scripts]
+nexusfeed-mcp = "mcp_server.server:run"
+nexusfeed-ltl = "mcp_server.server:run_ltl"
+nexusfeed-abc = "mcp_server.server:run_abc"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_server"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
