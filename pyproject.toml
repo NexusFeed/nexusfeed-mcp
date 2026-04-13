@@ -8,7 +8,7 @@ version = "1.1.0"
 description = "MCP server for NexusFeed — real-time B2B data (LTL fuel surcharges, ABC license compliance) for AI agents"
 readme = "README.md"
 requires-python = ">=3.12"
-license = {text = "Commercial"}
+license = "MIT"
 authors = [{name = "NexusFeed", email = "ops@nexusfeed.dev"}]
 keywords = ["freight", "ltl", "fuel-surcharge", "liquor-license", "abc", "compliance", "mcp", "ai-agents", "nexusfeed"]
 classifiers = [
