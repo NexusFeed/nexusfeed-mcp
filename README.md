@@ -201,4 +201,6 @@ current license status, then abc_lookup_license for the full record with suspens
 
 ## License
 
-Commercial. See [LICENSE](LICENSE). Contact [ops@nexusfeed.dev](mailto:ops@nexusfeed.dev) for enterprise SLA and licensing.
+**Client code (this repository): MIT.** See [LICENSE](LICENSE).
+
+**NexusFeed backend service (`https://api.nexusfeed.dev`): commercial.** The MIT license above covers only the Python client wrapper in this repo. It does not grant rights to the data service, which requires a paid API key and is governed by a separate Terms of Service. Contact [ops@nexusfeed.dev](mailto:ops@nexusfeed.dev) for enterprise SLA and licensing.
