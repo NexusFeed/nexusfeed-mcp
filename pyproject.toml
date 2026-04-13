@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nexusfeed-mcp"
-version = "1.1.0"
+version = "1.1.1"
 description = "MCP server for NexusFeed — real-time B2B data (LTL fuel surcharges, ABC license compliance) for AI agents"
 readme = "README.md"
 requires-python = ">=3.12"
