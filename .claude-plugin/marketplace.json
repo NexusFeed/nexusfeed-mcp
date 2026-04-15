@@ -10,12 +10,6 @@
       "source": "./plugins/nexusfeed-ltl",
       "description": "Real-time LTL freight carrier fuel surcharge rates for AI agents. 11 carriers (ODFL, Saia, Estes, ABF, R+L, TForce, XPO, SEFL, Averitt, FedEx, UPS), verifiable provenance on every response.",
       "category": "logistics"
-    },
-    {
-      "name": "nexusfeed-abc",
-      "source": "./plugins/nexusfeed-abc",
-      "description": "Liquor license compliance lookup across state ABC portals (CA, NY, FL, TX, IL) for AI agents. License status, expiration, owner, and address with verifiable provenance.",
-      "category": "business"
     }
   ]
 }
