@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "nexusfeed-ltl": {
+      "command": "uvx",
+      "args": ["--from", "nexusfeed-mcp", "nexusfeed-ltl"],
+      "env": {
+        "MCP_API_BASE_URL": "https://api.nexusfeed.dev",
+        "MCP_API_KEY": "${MCP_API_KEY}"
+      }
+    }
+  }
+}

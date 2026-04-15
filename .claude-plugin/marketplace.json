@@ -1,0 +1,15 @@
+{
+  "name": "nexusfeed",
+  "owner": {
+    "name": "NexusFeed",
+    "url": "https://nexusfeed.dev"
+  },
+  "plugins": [
+    {
+      "name": "nexusfeed-ltl",
+      "source": "./plugins/nexusfeed-ltl",
+      "description": "Real-time LTL freight carrier fuel surcharge rates for AI agents. 11 carriers (ODFL, Saia, Estes, ABF, R+L, TForce, XPO, SEFL, Averitt, FedEx, UPS), verifiable provenance on every response.",
+      "category": "logistics"
+    }
+  ]
+}
