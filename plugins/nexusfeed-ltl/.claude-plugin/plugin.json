@@ -1,0 +1,13 @@
+{
+  "name": "nexusfeed-ltl",
+  "description": "Real-time LTL freight carrier fuel surcharge rates for AI agents. 11 carriers, verifiable provenance on every response.",
+  "version": "0.1.0",
+  "author": {
+    "name": "NexusFeed",
+    "url": "https://nexusfeed.dev"
+  },
+  "homepage": "https://docs.nexusfeed.dev/products/ltl-fuel-surcharge",
+  "repository": "https://github.com/NexusFeed/nexusfeed-mcp",
+  "license": "MIT",
+  "keywords": ["freight", "logistics", "ltl", "fuel-surcharge", "odfl", "saia", "mcp"]
+}
